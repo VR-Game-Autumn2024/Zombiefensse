@@ -1528,6 +1528,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 907037820}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &8681825
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,6 +1560,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1486397984}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1 &8810047 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5702533969083701681, guid: d2260fe9623696647a7a6035a4643112, type: 3}
@@ -3744,7 +3747,10 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 2373617384909068173, guid: d2260fe9623696647a7a6035a4643112, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!4 &230763660 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011018076642, guid: 0ed008a5c5ee53c49a715afe02ba2651, type: 3}
@@ -3757,6 +3763,9 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3a5032c8bc2567545bc749fd50c0a563, type: 3}
@@ -4111,6 +4120,7 @@ Transform:
   m_PrefabInstance: {fileID: 415473325}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &272956750
 GameObject:
   m_ObjectHideFlags: 0
@@ -4225,6 +4235,8 @@ Transform:
   m_GameObject: {fileID: 273731763}
   serializedVersion: 2
 =======
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1001 &280811719
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 PrefabInstance:
@@ -4348,12 +4360,24 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
       propertyPath: m_LocalPosition.y
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
       propertyPath: m_LocalPosition.z
+=======
+      value: 412.66
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.49997914
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 579.19
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 412.66
       objectReference: {fileID: 0}
@@ -4402,6 +4426,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
 <<<<<<< HEAD
 GameObject:
   m_ObjectHideFlags: 0
@@ -4470,6 +4495,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2104669229}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 9eeace017892e6e4b936498efff23317, type: 3}
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
   m_SourcePrefab: {fileID: 100100000, guid: 9eeace017892e6e4b936498efff23317, type: 3}
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
@@ -4585,6 +4613,7 @@ PrefabInstance:
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4609,6 +4638,21 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 1
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
+      value: 324.7364
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.4411855
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 626.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
       objectReference: {fileID: 0}
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4617,6 +4661,10 @@ PrefabInstance:
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_LocalRotation.y
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      value: 0
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 0
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
@@ -4730,12 +4778,24 @@ PrefabInstance:
     - target: {fileID: 4000012067424442, guid: 9a8a037e5343199458bcacb9d8803837, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 4000012067424442, guid: 9a8a037e5343199458bcacb9d8803837, type: 3}
       propertyPath: m_LocalPosition.y
       objectReference: {fileID: 0}
     - target: {fileID: 4000012067424442, guid: 9a8a037e5343199458bcacb9d8803837, type: 3}
       propertyPath: m_LocalPosition.z
+=======
+      value: 317.91443
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012067424442, guid: 9a8a037e5343199458bcacb9d8803837, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00005722046
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012067424442, guid: 9a8a037e5343199458bcacb9d8803837, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 593.3156
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 317.91443
       objectReference: {fileID: 0}
@@ -6617,6 +6677,9 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 336.6
+<<<<<<< HEAD
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
@@ -6626,6 +6689,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      value: 587.36
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 587.36
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
@@ -6750,12 +6817,24 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
       propertyPath: m_LocalPosition.y
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
       propertyPath: m_LocalPosition.z
+=======
+      value: 383.39
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.49997914
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 601.9398
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 383.39
       objectReference: {fileID: 0}
@@ -7237,12 +7316,24 @@ PrefabInstance:
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_LocalPosition.y
       objectReference: {fileID: 0}
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_LocalPosition.z
+=======
+      value: 392.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.499999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 642.19
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 392.9
       objectReference: {fileID: 0}
@@ -7343,6 +7434,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &808559889
 GameObject:
@@ -7492,6 +7584,8 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &837474868
 =======
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!4 &906022109 stripped
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 Transform:
@@ -7499,6 +7593,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 837474867}
   serializedVersion: 2
@@ -7778,6 +7873,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1001 &935109563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7789,12 +7886,24 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ffa56748ab32eb94abdad75551227af6, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ffa56748ab32eb94abdad75551227af6, type: 3}
       propertyPath: m_LocalPosition.y
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ffa56748ab32eb94abdad75551227af6, type: 3}
       propertyPath: m_LocalPosition.z
+=======
+      value: 353.58752
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ffa56748ab32eb94abdad75551227af6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4999669
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ffa56748ab32eb94abdad75551227af6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 635.6798
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 353.58752
       objectReference: {fileID: 0}
@@ -7907,6 +8016,7 @@ Transform:
   m_PrefabInstance: {fileID: 3377684}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &949213425
 GameObject:
   m_ObjectHideFlags: 0
@@ -8001,6 +8111,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.008180305, y: -0.0053694975, z: -0.020344593}
     m_Extent: {x: 0.046097822, y: 0.067293465, z: 0.0557265}
   m_DirtyAABB: 0
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1001 &951502704
@@ -8180,7 +8292,10 @@ PrefabInstance:
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
       value: 393.00272
       objectReference: {fileID: 0}
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
@@ -8194,6 +8309,9 @@ PrefabInstance:
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
+<<<<<<< HEAD
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
       objectReference: {fileID: 0}
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
@@ -8203,6 +8321,10 @@ PrefabInstance:
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_LocalRotation.y
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      value: 0
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 0
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
@@ -8270,12 +8392,24 @@ PrefabInstance:
     - target: {fileID: 4000011405514568, guid: dfec00be6c7c5b944991547485554901, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 4000011405514568, guid: dfec00be6c7c5b944991547485554901, type: 3}
       propertyPath: m_LocalPosition.y
       objectReference: {fileID: 0}
     - target: {fileID: 4000011405514568, guid: dfec00be6c7c5b944991547485554901, type: 3}
       propertyPath: m_LocalPosition.z
+=======
+      value: 292.71054
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011405514568, guid: dfec00be6c7c5b944991547485554901, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0056746006
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011405514568, guid: dfec00be6c7c5b944991547485554901, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 582.54614
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 292.71054
       objectReference: {fileID: 0}
@@ -8299,6 +8433,10 @@ PrefabInstance:
     - target: {fileID: 4000011405514568, guid: dfec00be6c7c5b944991547485554901, type: 3}
       propertyPath: m_LocalRotation.y
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      value: 0
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 0
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
@@ -8532,6 +8670,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 206a787b1d0da6640b6375d86a2e9d05, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 206a787b1d0da6640b6375d86a2e9d05, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8556,6 +8695,21 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 0
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
+      value: 396.87
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 206a787b1d0da6640b6375d86a2e9d05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.99998325
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 206a787b1d0da6640b6375d86a2e9d05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 606.28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 206a787b1d0da6640b6375d86a2e9d05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 206a787b1d0da6640b6375d86a2e9d05, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8564,6 +8718,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 206a787b1d0da6640b6375d86a2e9d05, type: 3}
       propertyPath: m_LocalRotation.y
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      value: -1
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: -1
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
@@ -8766,6 +8924,7 @@ PrefabInstance:
     - target: {fileID: 1622716105877373041, guid: 12ec307e4794d5343818153e0717ee71, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 1622716105877373041, guid: 12ec307e4794d5343818153e0717ee71, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8790,6 +8949,21 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 0.889757
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
+      value: 354.284
+      objectReference: {fileID: 0}
+    - target: {fileID: 1622716105877373041, guid: 12ec307e4794d5343818153e0717ee71, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.349343
+      objectReference: {fileID: 0}
+    - target: {fileID: 1622716105877373041, guid: 12ec307e4794d5343818153e0717ee71, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 597.444
+      objectReference: {fileID: 0}
+    - target: {fileID: 1622716105877373041, guid: 12ec307e4794d5343818153e0717ee71, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.889757
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
       objectReference: {fileID: 0}
     - target: {fileID: 1622716105877373041, guid: 12ec307e4794d5343818153e0717ee71, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8798,6 +8972,10 @@ PrefabInstance:
     - target: {fileID: 1622716105877373041, guid: 12ec307e4794d5343818153e0717ee71, type: 3}
       propertyPath: m_LocalRotation.y
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      value: 0.4564345
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 0.4564345
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
@@ -9061,6 +9239,7 @@ Transform:
   m_Father: {fileID: 2104511665}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1036984190
 GameObject:
   m_ObjectHideFlags: 0
@@ -9251,6 +9430,8 @@ SkinnedMeshRenderer:
   m_DirtyAABB: 0
 =======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1001 &1048118798
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9261,6 +9442,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
 <<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
@@ -9286,6 +9468,21 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 0.7071068
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
+      value: 336.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5000205
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 606.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
       propertyPath: m_LocalRotation.x
@@ -9294,6 +9491,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
       propertyPath: m_LocalRotation.y
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      value: 0.7071068
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 0.7071068
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
@@ -9323,6 +9524,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1068966218
 GameObject:
@@ -9641,6 +9843,8 @@ Transform:
   m_SortingLayer: 0
   m_SortingOrder: 0
   serializedVersion: 2
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!4 &1123749037 stripped
@@ -10266,6 +10470,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7aeb709a3e64ad46b994291949d76e7, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10282,6 +10487,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1001 &1255756882
@@ -10342,7 +10549,10 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a5032c8bc2567545bc749fd50c0a563, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1 &1266123607
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 GameObject:
@@ -11544,6 +11754,10 @@ PrefabInstance:
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      value: 580.85895
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 580.85895
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
@@ -11559,6 +11773,10 @@ PrefabInstance:
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_LocalRotation.y
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      value: 0
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 0
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
@@ -11584,6 +11802,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1424492510
 GameObject:
@@ -11649,6 +11868,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1001 &1435114120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11707,6 +11928,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 91cf861da5ac23e4b8487f79a6dfe551, type: 3}
   m_PrefabInstance: {fileID: 1435114120}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1439220339
 GameObject:
@@ -11771,6 +11993,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 808559890}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1 &1445589926
@@ -11939,6 +12163,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46b02998d4b44f4eaaf9a29daca8f13, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1453109896
 GameObject:
   m_ObjectHideFlags: 0
@@ -12010,6 +12235,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1001 &1457982774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12021,12 +12248,24 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
       propertyPath: m_LocalPosition.y
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
       propertyPath: m_LocalPosition.z
+=======
+      value: 360.36826
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.49997723
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 634.28845
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 360.36826
       objectReference: {fileID: 0}
@@ -12050,6 +12289,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9eeace017892e6e4b936498efff23317, type: 3}
       propertyPath: m_LocalRotation.y
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      value: -0
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: -0
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
@@ -12202,6 +12445,7 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 7217104275965303187, guid: d2260fe9623696647a7a6035a4643112, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1482133270
 GameObject:
   m_ObjectHideFlags: 0
@@ -12298,6 +12542,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1001 &1486625909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12308,6 +12554,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1622716105877373041, guid: 12ec307e4794d5343818153e0717ee71, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
 <<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 1622716105877373041, guid: 12ec307e4794d5343818153e0717ee71, type: 3}
@@ -12333,6 +12580,21 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 0.9369904
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
+      value: 354.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1622716105877373041, guid: 12ec307e4794d5343818153e0717ee71, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3493427
+      objectReference: {fileID: 0}
+    - target: {fileID: 1622716105877373041, guid: 12ec307e4794d5343818153e0717ee71, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 597.315
+      objectReference: {fileID: 0}
+    - target: {fileID: 1622716105877373041, guid: 12ec307e4794d5343818153e0717ee71, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9369904
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
       objectReference: {fileID: 0}
     - target: {fileID: 1622716105877373041, guid: 12ec307e4794d5343818153e0717ee71, type: 3}
       propertyPath: m_LocalRotation.x
@@ -12341,6 +12603,10 @@ PrefabInstance:
     - target: {fileID: 1622716105877373041, guid: 12ec307e4794d5343818153e0717ee71, type: 3}
       propertyPath: m_LocalRotation.y
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      value: -0.34935528
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: -0.34935528
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
@@ -12384,12 +12650,24 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
       propertyPath: m_LocalPosition.y
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
       propertyPath: m_LocalPosition.z
+=======
+      value: 339.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5000024
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e079575efded7b488ca4313fcf6eeac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 608.99
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 339.25
       objectReference: {fileID: 0}
@@ -12503,6 +12781,7 @@ PrefabInstance:
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12527,6 +12806,21 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 1
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
+      value: 392.90195
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.499999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 629.2179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
       objectReference: {fileID: 0}
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -12535,6 +12829,10 @@ PrefabInstance:
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_LocalRotation.y
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      value: 0
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 0
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
@@ -12559,6 +12857,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12597,6 +12896,9 @@ Transform:
   - {fileID: 1024388870}
   m_Father: {fileID: 418021543}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
   m_SourcePrefab: {fileID: 100100000, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
@@ -12795,6 +13097,7 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 <<<<<<< HEAD
+<<<<<<< HEAD
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12811,6 +13114,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1001 &1585371546
@@ -13855,6 +14160,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e01f2e62cf41a3449be2dade3b2c2d79, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1697804979
 GameObject:
   m_ObjectHideFlags: 0
@@ -13919,6 +14225,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1001 &1707494050
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13933,12 +14241,24 @@ PrefabInstance:
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_LocalPosition.y
       objectReference: {fileID: 0}
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_LocalPosition.z
+=======
+      value: 401.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4999809
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 641.44995
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: 401.64
       objectReference: {fileID: 0}
@@ -14199,6 +14519,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ffa56748ab32eb94abdad75551227af6, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ffa56748ab32eb94abdad75551227af6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14223,6 +14544,21 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 1
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
+      value: 374.66943
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ffa56748ab32eb94abdad75551227af6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4999955
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ffa56748ab32eb94abdad75551227af6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 629.1543
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ffa56748ab32eb94abdad75551227af6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ffa56748ab32eb94abdad75551227af6, type: 3}
       propertyPath: m_LocalRotation.x
@@ -14231,6 +14567,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ffa56748ab32eb94abdad75551227af6, type: 3}
       propertyPath: m_LocalRotation.y
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      value: -0
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
       value: -0
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
@@ -14260,6 +14600,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffa56748ab32eb94abdad75551227af6, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1731023251
 GameObject:
@@ -14362,6 +14703,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1001 &1762788102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14424,6 +14767,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 91cf861da5ac23e4b8487f79a6dfe551, type: 3}
   m_PrefabInstance: {fileID: 1762788102}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 GameObject:
   m_ObjectHideFlags: 0
@@ -14624,6 +14968,8 @@ SkinnedMeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 =======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1001 &1783073432
@@ -14921,7 +15267,10 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: dda42447d741e5c49b0a5461669fdc99, type: 3}
@@ -14947,6 +15296,9 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: dda42447d741e5c49b0a5461669fdc99, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
+<<<<<<< HEAD
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dda42447d741e5c49b0a5461669fdc99, type: 3}
@@ -14975,7 +15327,10 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda42447d741e5c49b0a5461669fdc99, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 --- !u!1 &1872120312
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
 GameObject:
@@ -17348,4 +17703,7 @@ SceneRoots:
 =======
   - {fileID: 1383178630}
   - {fileID: 1107625965}
+<<<<<<< HEAD
+>>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
+=======
 >>>>>>> parent of f59e785 (Merge pull request #30 from VR-Game-Autumn2024/Dev-Gab)
