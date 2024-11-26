@@ -1147,12 +1147,12 @@
       <HintPath>Library\ScriptAssemblies\Meta.XR.Editor.StatusMenu.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Meta.Wit.Composer">
-      <HintPath>Library\ScriptAssemblies\Meta.Wit.Composer.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.Wit.Composer">
+      <HintPath>Library\ScriptAssemblies\Meta.Wit.Composer.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
@@ -1419,16 +1419,16 @@
       <HintPath>Library\ScriptAssemblies\AssistantVoiceCommandCommon.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Meta.Movement">
+      <HintPath>Library\ScriptAssemblies\Meta.Movement.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="VoiceSDK.Editor.Composer">
       <HintPath>Library\ScriptAssemblies\VoiceSDK.Editor.Composer.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Meta.XR.Guides.Editor">
       <HintPath>Library\ScriptAssemblies\Meta.XR.Guides.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Formats.Fbx.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
@@ -1439,12 +1439,16 @@
       <HintPath>Library\ScriptAssemblies\Meta.WitAi.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    <Reference Include="Unity.Formats.Fbx.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Meta.Voice.Hub.Editor">
       <HintPath>Library\ScriptAssemblies\Meta.Voice.Hub.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VoiceSDK.Runtime">
@@ -1465,6 +1469,10 @@
     </Reference>
     <Reference Include="Oculus.Interaction.OVR.Editor">
       <HintPath>Library\ScriptAssemblies\Oculus.Interaction.OVR.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.Movement.Editor">
+      <HintPath>Library\ScriptAssemblies\Meta.Movement.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Meta.XR.Audio.Editor">
