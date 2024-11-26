@@ -4725,6 +4725,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agent: {fileID: 481013378}
   player: {fileID: 1016011017}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 256
+  walkpoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 5
+  timeBetweenAttacks: 2
+  sightRange: 60
+  attackRange: 2
+  playerInSightRange: 0
+  playerInAttackRange: 0
+  Damage: 20
+  Health: 100
 --- !u!54 &481013381
 Rigidbody:
   m_ObjectHideFlags: 0

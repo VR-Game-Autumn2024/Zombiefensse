@@ -25,6 +25,7 @@ TagManager:
   - SamplesInfoPanel
   - QDSUIToggleCheckboxRadio
   - QDSUISection
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -32,9 +33,9 @@ TagManager:
   - HiddenMesh
   - Water
   - UI
-  - 
+  - Ground
   - Objet
-  - 
+  - Player
   - 
   - Character
   - MirroredCharacter
