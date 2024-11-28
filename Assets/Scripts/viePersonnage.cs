@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class viePersonnage : MonoBehaviour
+public class NewBehaviourScript : MonoBehaviour
 {
     // NIVEAU DE VIE
     public float vieMax = 100f;
@@ -33,6 +33,8 @@ public class viePersonnage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //diminue la vie
+        vieActuelle -= 0.1f;
 
         barreDeVie.fillAmount = vieActuelle / vieMax;
 
