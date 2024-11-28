@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-public class AI : MonoBehaviour
+public class Zombie_AI : MonoBehaviour
 {
     public NavMeshAgent agent;
     public Transform player;
@@ -22,11 +22,18 @@ public class AI : MonoBehaviour
     public float Damage;
     public float Health;
 
+    GameObject viePersonnage;
+    public viePersonnage viePersoScript;
     // Start is called before the first frame update
+    private void Start()
+    {
+        viePersoScript = viePersonnage.GetComponent<viePersonnage>();
+    }
     private void Awake()
     {
         player = GameObject.Find("DeplacementJoueur").transform;
         agent = GetComponent<NavMeshAgent>();
+
     }
 
     // Update is called once per frame
@@ -78,10 +85,14 @@ public class AI : MonoBehaviour
         agent.SetDestination(transform.position);
         transform.LookAt(player);
 
+        
+
         if (!alreadyAttacked)
         {
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
+            //Attaque du Zombie
+            viePersoScript.vieActuelle -= Damage;
         }
     }
     private void ResetAttack()

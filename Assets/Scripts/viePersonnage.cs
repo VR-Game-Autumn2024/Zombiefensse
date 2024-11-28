@@ -5,11 +5,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class NewBehaviourScript : MonoBehaviour
+public class viePersonnage : MonoBehaviour
 {
     // NIVEAU DE VIE
     public float vieMax = 100f;
-    public float vieActuelle;
+    public float vieActuelle = 100f;
 
     //STATUS DU PERSONNAGE VIE ET COULEUR HUD
     public Image barreDeVie;
@@ -20,7 +20,7 @@ public class NewBehaviourScript : MonoBehaviour
     public Color barre20 = Color.red;
     public Color barre5 = Color.red;
 
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -28,14 +28,13 @@ public class NewBehaviourScript : MonoBehaviour
 
         barreDeVie.color = barreComplet;
 
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        //diminue la vie
-        vieActuelle -= 0.1f;
-
+       
         barreDeVie.fillAmount = vieActuelle / vieMax;
 
         if (vieActuelle >= 80)
