@@ -6725,7 +6725,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 16
   m_CollisionDetection: 0
 --- !u!114 &481013385
 MonoBehaviour:
@@ -6754,9 +6754,15 @@ MonoBehaviour:
   attackRange: 1.5
   playerInSightRange: 0
   playerInAttackRange: 0
-  Damage: 20
+  Damage: 10
   Health: 100
   viePersoScript: {fileID: 2012942595}
+  animator: {fileID: 481013386}
+--- !u!95 &481013386 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: 8f7380da49034cd488ddff94b1ac35d1, type: 3}
+  m_PrefabInstance: {fileID: 1944578288}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &494056732
 GameObject:
   m_ObjectHideFlags: 0

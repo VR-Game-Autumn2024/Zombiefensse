@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.AI;
 public class Zombie_AI : MonoBehaviour
 {
+    //Déplacement du zombie
     public NavMeshAgent agent;
     public Transform player;
     public LayerMask whatIsGround, whatIsPlayer;
@@ -19,15 +20,22 @@ public class Zombie_AI : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
+    //Variables de vie et de dégats du Zombie
     public float Damage;
     public float Health;
 
+    //Appel la vie du personnage
     GameObject viePersonnage;
     public viePersonnage viePersoScript;
+
+    //Animation
+    public Animator animator;
     // Start is called before the first frame update
     private void Start()
     {
         viePersoScript = viePersonnage.GetComponent<viePersonnage>();
+
+        animator = GetComponent<Animator>();
     }
     private void Awake()
     {
@@ -83,9 +91,6 @@ public class Zombie_AI : MonoBehaviour
     private void AttackPlayer()
     {
         agent.SetDestination(transform.position);
-        transform.LookAt(player);
-
-        
 
         if (!alreadyAttacked)
         {
@@ -93,13 +98,14 @@ public class Zombie_AI : MonoBehaviour
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
             //Attaque du Zombie
             viePersoScript.vieActuelle -= Damage;
+            animator.SetBool("attaque", true);
         }
     }
     private void ResetAttack()
     {
         alreadyAttacked = false;
+        animator.SetBool("attaque", false);
     }
-
 
     private void OnDrawGizmosSelected()
     {
