@@ -20,10 +20,10 @@ public class VRShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (grabbable.isGrabbed && OVRInput.GetDown(shootButton, grabbable.grabbedBy.GetController()))
-        {
-            simpleShoot.StartShoot();
-            audio.Play();
-        }
+    //    if (grabbable.isGrabbed && OVRInput.GetDown(shootButton, grabbable.grabbedBy.GetController()))
+    //    {
+    //        simpleShoot.StartShoot();
+    //        audio.Play();
+    //    }
     }
 }
