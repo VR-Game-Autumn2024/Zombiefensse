@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class viePersonnage : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class viePersonnage : MonoBehaviour
     public Color barre40 = Color.yellow;
     public Color barre20 = Color.red;
     public Color barre5 = Color.red;
+
+    //Vie en pourcentage
+    public TextMeshProUGUI pourcentageVie;
 
     
     // Start is called before the first frame update
@@ -36,6 +40,9 @@ public class viePersonnage : MonoBehaviour
     {
        
         barreDeVie.fillAmount = vieActuelle / vieMax;
+
+        //Texte en pourcentage de la vie
+        pourcentageVie.text = (vieActuelle / vieMax * 100).ToString("0") + "%";
 
         if (vieActuelle >= 80)
         {
