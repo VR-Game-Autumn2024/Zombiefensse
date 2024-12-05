@@ -7,7 +7,7 @@ public class CloneZombie2 : MonoBehaviour
 
 {
     public GameObject zombieClone;
-    public float delayTime = 5f;
+    public float delayTime = 120f;
 
     private int maxZombies = 10;
     private int currentZombies = 0;
