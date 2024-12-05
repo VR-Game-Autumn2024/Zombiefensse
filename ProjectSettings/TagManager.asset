@@ -26,6 +26,7 @@ TagManager:
   - QDSUIToggleCheckboxRadio
   - QDSUISection
   - Ground
+  - Balle
   layers:
   - Default
   - TransparentFX
