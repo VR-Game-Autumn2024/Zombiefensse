@@ -50,7 +50,9 @@ public class CloneZombie : MonoBehaviour
         }
 
         // Update the timer on the screen
-        timerZombie.text = Mathf.Ceil(delayTime).ToString() + "s";
+        int minutes = Math.FloorToInt(delayTime / 60);
+        int seconds = Math.FloorToInt(delayTime % 60);
+        timerZombie.text = $"{minutes:00}:{seconds:00}";
 
         //Update the wave counter on computer screen
        waveZombieCounter.text = "Vague: " + waveCount.ToString();
@@ -75,6 +77,9 @@ public class CloneZombie : MonoBehaviour
 
         // Optionally, log the wave number
         Debug.Log("Wave " + waveCount + " spawned " + zombiesToSpawn + " zombies.");
+
+        //increase zombie for next wave: 50% more zombies each wave. Cap at 50max
+        maxZombiesPerWave = Mathf.Min(Mathf.CeilToInt(maxZombiesPerWave * 1.25f), 50);
     }
 }
 
