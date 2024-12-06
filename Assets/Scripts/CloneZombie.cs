@@ -22,6 +22,7 @@ public class CloneZombie : MonoBehaviour
     private int waveCount = 0;               // Keeps track of the wave number
 
     public TextMeshProUGUI timerZombie;      // UI element to show timer
+    public TextMeshProUGUI waveZombieCounter;       // UI element to show wave 
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +51,9 @@ public class CloneZombie : MonoBehaviour
 
         // Update the timer on the screen
         timerZombie.text = Mathf.Ceil(delayTime).ToString() + "s";
+
+        //Update the wave counter on computer screen
+       waveZombieCounter.text = "Vague: " + waveCount.ToString();
     }
 
     // Function to spawn a wave of zombies
