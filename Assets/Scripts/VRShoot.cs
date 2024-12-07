@@ -16,7 +16,9 @@ public class VRShoot : MonoBehaviour
     public float forceBalle = 20f;
 
     public AudioSource source;
-    public AudioClip shootingAudioClip;
+
+    //Son lors d'un tire
+    public AudioClip sonTire;
 
     // Start is called before the first frame update
     void Start()
@@ -35,15 +37,7 @@ public class VRShoot : MonoBehaviour
 
     public void Shoot()
     {
-        Debug.Log("Pew Pew");
-
+        //Lorsqu'on tire la balle apparait et se dirige vers l'avant
         Instantiate(ballePrefab, shootingPoint.position, shootingPoint.rotation * Quaternion.Euler(90f, 0f, 0f)).GetComponent<Rigidbody>().AddForce(shootingPoint.forward * forceBalle);
-
-        /*RigidBody rb = ballePrefab.GetComponent<RigidBody>();
-
-        /*if (rb is null)
-        {
-            rb.AddForce(shootingpoint.forward = forceBalle, ForceMode.Inpulse);
-        }*/
     }
 }
