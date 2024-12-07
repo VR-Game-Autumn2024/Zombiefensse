@@ -50,9 +50,9 @@ public class CloneZombie : MonoBehaviour
         }
 
         // Update the timer on the screen
-        int minutes = Math.FloorToInt(delayTime / 60);
-        int seconds = Math.FloorToInt(delayTime % 60);
-        timerZombie.text = $"{minutes:00}:{seconds:00}";
+        //int minutes = Math.FloorToInt(delayTime / 60);
+        //int seconds = Math.FloorToInt(delayTime % 60);
+        //timerZombie.text = $"{minutes:00}:{seconds:00}";
 
         //Update the wave counter on computer screen
        waveZombieCounter.text = "Vague: " + waveCount.ToString();
