@@ -4195,10 +4195,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   zombieClone: {fileID: 481013375}
-  delayTime: 10
+  delayTime: 120
   maxZombiesPerWave: 10
   maxTotalZombies: 50
-  timerZombie: {fileID: 134948525}
+  timerZombie: {fileID: 684780835}
+  waveZombieCounter: {fileID: 134948525}
 --- !u!4 &224864901
 Transform:
   m_ObjectHideFlags: 0
@@ -24865,13 +24866,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580664999}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 759ae5a9591d88c479d75de66cfbbc3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   zombieClone: {fileID: 481013375}
   delayTime: 120
+  maxZombiesPerWave: 10
+  maxTotalZombies: 50
 --- !u!4 &1580665001
 Transform:
   m_ObjectHideFlags: 0
