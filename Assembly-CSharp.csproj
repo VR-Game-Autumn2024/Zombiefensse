@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CloneZombie2.cs" />
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
+    <Compile Include="Assets\Scripts\DetruireBalle.cs" />
     <Compile Include="Assets\Scripts\UI_Scripts\UI_Start.cs" />
     <Compile Include="Assets\Scripts\viePersonnage.cs" />
     <Compile Include="Assets\Nokobot\Modern Guns - Handgun\_Demo Assets\SimpleShoot.cs" />
