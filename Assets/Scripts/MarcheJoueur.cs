@@ -24,7 +24,7 @@ public class MarcheJoueur : MonoBehaviour
             stepTimer -= Time.deltaTime;
             if (stepTimer <= 0f)
             {
-                JoueurSonDePas();
+                JouerSonDePas();
                 stepTimer = stepInterval; // Reset le timer
             }
         }
@@ -35,7 +35,7 @@ public class MarcheJoueur : MonoBehaviour
     }
 
     //Jouer le son de pas
-    void JoueurSonDePas()
+    void JouerSonDePas()
     {
         if (sonsMarche.Length > 0)
         {
