@@ -10658,7 +10658,7 @@ MonoBehaviour:
   boutonTire: 67108864
   ballePrefab: {fileID: 2414665486738993073, guid: f7daa3737fae61040847fe0d41416734, type: 3}
   shootingPoint: {fileID: 1563919900}
-  forceBalle: 345.2
+  forceBalle: 1000
   source: {fileID: 0}
   sonTire: {fileID: 8300000, guid: 7d92337cf000c604db820891342ff1ba, type: 3}
 --- !u!82 &627232844
