@@ -37,6 +37,7 @@ public class VRShoot : MonoBehaviour
 
     public void Shoot()
     {
+        source.PlayOneShot(sonTire);
         //Lorsqu'on tire la balle apparait et se dirige vers l'avant
         Instantiate(ballePrefab, shootingPoint.position, shootingPoint.rotation * Quaternion.Euler(90f, 0f, 0f)).GetComponent<Rigidbody>().AddForce(shootingPoint.forward * forceBalle);
     }

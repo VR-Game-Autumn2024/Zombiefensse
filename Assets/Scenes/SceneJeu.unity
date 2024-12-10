@@ -10774,7 +10774,7 @@ MonoBehaviour:
   ballePrefab: {fileID: 2414665486738993073, guid: f7daa3737fae61040847fe0d41416734, type: 3}
   shootingPoint: {fileID: 1563919900}
   forceBalle: 1000
-  source: {fileID: 0}
+  source: {fileID: 627232844}
   sonTire: {fileID: 8300000, guid: 7d92337cf000c604db820891342ff1ba, type: 3}
 --- !u!82 &627232844
 AudioSource:
@@ -12357,6 +12357,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011746900150, guid: 44c88c687c38c154abd2696cc1930191, type: 3}
   m_PrefabInstance: {fileID: 1328890406}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &723674814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 723674815}
+  m_Layer: 0
+  m_Name: Limites_Colliders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &723674815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723674814}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 509.9215, y: -254.57828, z: 612.6114}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &723900845
 GameObject:
   m_ObjectHideFlags: 0
@@ -33747,3 +33778,4 @@ SceneRoots:
   - {fileID: 1126563794}
   - {fileID: 224864901}
   - {fileID: 1628419541}
+  - {fileID: 723674815}
