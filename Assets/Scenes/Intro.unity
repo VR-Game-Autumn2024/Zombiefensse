@@ -4261,13 +4261,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250319588}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.44947746, z: -0, w: 0.89329165}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1120295570}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 53.42, z: 0}
 --- !u!1 &254832377
 GameObject:
   m_ObjectHideFlags: 0
@@ -16318,8 +16318,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045006583}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: 0.33096457, z: -0, w: 0.94364315}
+  m_LocalPosition: {x: 0, y: -0.000000059604645, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16332,7 +16332,7 @@ Transform:
   - {fileID: 37946737}
   - {fileID: 912045966}
   m_Father: {fileID: 174312457}
-  m_LocalEulerAnglesHint: {x: 0, y: 44.217, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 38.655, z: 0}
 --- !u!1 &1045886137
 GameObject:
   m_ObjectHideFlags: 0
@@ -34400,7 +34400,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 650379146}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
