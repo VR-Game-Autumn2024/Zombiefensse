@@ -63,12 +63,17 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CloneZombie2.cs" />
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
+    <Compile Include="Assets\Scripts\SonMarcheZombie.cs" />
+    <Compile Include="Assets\Scripts\DetruireBalle.cs" />
     <Compile Include="Assets\Scripts\UI_Scripts\UI_Start.cs" />
     <Compile Include="Assets\Scripts\viePersonnage.cs" />
+    <Compile Include="Assets\Scripts\MarcheJoueur.cs" />
     <Compile Include="Assets\Nokobot\Modern Guns - Handgun\_Demo Assets\SimpleShoot.cs" />
     <Compile Include="Assets\Scripts\VRShoot.cs" />
     <Compile Include="Assets\Scripts\UI_Scripts\ReturnToMenu.cs" />
+    <Compile Include="Assets\Scripts\SelfDestructParticles.cs" />
     <Compile Include="Assets\Scripts\UI_Scripts\CloseGame.cs" />
+    <Compile Include="Assets\Scripts\UI_Scripts\son_Controles.cs" />
     <Compile Include="Assets\Scripts\Zombie_AI.cs" />
     <Compile Include="Assets\Scripts\UI_Scripts\menu_pause.cs" />
     <Compile Include="Assets\Scripts\CloneZombie.cs" />
