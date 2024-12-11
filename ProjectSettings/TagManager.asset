@@ -27,6 +27,7 @@ TagManager:
   - QDSUISection
   - Ground
   - Balle
+  - zombie
   layers:
   - Default
   - TransparentFX

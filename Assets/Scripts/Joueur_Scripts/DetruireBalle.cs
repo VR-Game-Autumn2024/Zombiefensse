@@ -13,5 +13,10 @@ public class DetruireBalle : MonoBehaviour
         //Détruire la balle
         Destroy(gameObject);
         GameObject explosion = Instantiate(particulesBalle, transform.position, transform.rotation);
+
+        if (other.gameObject.CompareTag("zombie"))
+        {
+            Destroy(other.gameObject);
+        }
     }
 }
