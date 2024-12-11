@@ -1311,8 +1311,7 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 2fbb0962c5610294daa16439d87d25e1, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 825894089210680117, guid: d2260fe9623696647a7a6035a4643112, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 172042712653612283, guid: d2260fe9623696647a7a6035a4643112, type: 3}
       insertIndex: 58
@@ -5668,7 +5667,7 @@ GameObject:
   - component: {fileID: 341323059}
   - component: {fileID: 341323058}
   m_Layer: 0
-  m_Name: Musique_Fond
+  m_Name: horror-music-background-dark-266062
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8087,18 +8086,18 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 0.6
+  DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 25
+  MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 1
+  rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -8161,7 +8160,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.434
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -8186,7 +8185,7 @@ MonoBehaviour:
   audioSource: {fileID: 481013388}
   sonsMarche:
   - {fileID: 8300000, guid: 3a464ad7500d8f5469fee400aaf0974e, type: 3}
-  stepInterval: 0.75
+  stepInterval: 0.5
 --- !u!1 &494056732
 GameObject:
   m_ObjectHideFlags: 0

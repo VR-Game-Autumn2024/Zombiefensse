@@ -28,10 +28,6 @@ public class SonMarcheZombie : MonoBehaviour
         {
             int randomIndex = Random.Range(0, sonsMarche.Length);
             audioSource.PlayOneShot(sonsMarche[randomIndex]);
-
-            //Jouer le son de pas avec des variations
-            audioSource.pitch = UnityEngine.Random.Range(0.8f, 1.5f);
-            audioSource.volume = UnityEngine.Random.Range(0.1f, 0.2f);
         }
     }
 }
