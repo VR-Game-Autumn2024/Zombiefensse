@@ -4376,7 +4376,7 @@ GameObject:
   - component: {fileID: 224864901}
   - component: {fileID: 224864900}
   m_Layer: 0
-  m_Name: SpawnZombieEndroit1
+  m_Name: SpawnZombie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4395,11 +4395,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   zombieClone: {fileID: 481013375}
-  delayTime: 10
+  delayTime: 120
   maxZombiesPerWave: 10
-  maxTotalZombies: 50
-  timerZombie: {fileID: 134948525}
-  waveZombieCounter: {fileID: 0}
+  maxTotalZombies: 70
+  timerZombie: {fileID: 684780835}
+  waveZombieCounter: {fileID: 134948525}
 --- !u!4 &224864901
 Transform:
   m_ObjectHideFlags: 0
@@ -11968,7 +11968,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "TEMPS \xC0 LA PROCHAINE VAGUE"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -25933,52 +25933,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.03454852, y: 0.0005114786, z: 0.00007304177}
     m_Extent: {x: 0.0009967163, y: 0.0020704702, z: 0.004453361}
   m_DirtyAABB: 0
---- !u!1 &1580664999
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1580665001}
-  - component: {fileID: 1580665000}
-  m_Layer: 0
-  m_Name: SpawnZombieEndroit2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1580665000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1580664999}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 759ae5a9591d88c479d75de66cfbbc3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zombieClone: {fileID: 481013375}
-  delayTime: 120
---- !u!4 &1580665001
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1580664999}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 412.25906, y: 3.822471, z: 593.62164}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1581607507
 GameObject:
   m_ObjectHideFlags: 0
@@ -34869,5 +34823,4 @@ SceneRoots:
   - {fileID: 224864901}
   - {fileID: 1628419541}
   - {fileID: 723674815}
-  - {fileID: 1580665001}
   - {fileID: 341323059}

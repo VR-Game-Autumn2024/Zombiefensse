@@ -1,25 +1,21 @@
-//using System.Collections;
-//using System.Collections.Generic;
-//using TMPro;
-//using UnityEngine;
-
-//============CODE CHATGPT============//
-
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor.SearchService;
 using UnityEngine;
 
 public class CloneZombie : MonoBehaviour
 {
     public GameObject zombieClone;           // Prefab of the zombie to spawn
-    public float delayTime = 10f;           // Time between zombie waves
+    public float delayTime = 120f;           // Time between zombie waves
     public int maxZombiesPerWave = 10;       // Number of zombies per wave
-    public int maxTotalZombies = 50;         // Total number of zombies allowed to spawn
+    public int maxTotalZombies = 70;         // Total number of zombies allowed to spawn
 
     private int currentZombies = 0;          // Current number of zombies spawned
     private bool canSpawn = true;            // Controls whether zombies can be spawned
     private int waveCount = 0;               // Keeps track of the wave number
+    private int maxWave = 4;                 // Maximum number of waves
 
     public TextMeshProUGUI timerZombie;      // UI element to show timer
     public TextMeshProUGUI waveZombieCounter;       // UI element to show wave 
@@ -50,12 +46,19 @@ public class CloneZombie : MonoBehaviour
         }
 
         // Update the timer on the screen
-        //int minutes = Math.FloorToInt(delayTime / 60);
-        //int seconds = Math.FloorToInt(delayTime % 60);
-        //timerZombie.text = $"{minutes:00}:{seconds:00}";
+        int minutes = (int)(delayTime / 60);
+        int seconds = (int)(delayTime % 60);
+        timerZombie.text = "TEMPS À LA PROCHAINE VAGUE: " + $"{minutes:00}:{seconds:00}";
 
         //Update the wave counter on computer screen
-       waveZombieCounter.text = "Vague: " + waveCount.ToString();
+        waveZombieCounter.text = "Vague: " + waveCount.ToString();
+
+        // Check the wave limit and change to sucess scene
+        if (waveCount >= maxWave)
+        {
+            canSpawn = false;
+            SceneChangeFunction();
+        }
     }
 
     // Function to spawn a wave of zombies
@@ -65,11 +68,23 @@ public class CloneZombie : MonoBehaviour
 
         for (int i = 0; i < zombiesToSpawn; i++)
         {
+            //float range
+            float randomX = UnityEngine.Random.Range(405, 410);
+            float randomZ = UnityEngine.Random.Range(570, 580);
+
+
+            //float range 2
+            float randomX2 = UnityEngine.Random.Range(321, 330);
+            float randomZ2 = UnityEngine.Random.Range(605, 614);
+
+
             // Random position for the zombie
-            Vector3 spawnPosition = new Vector3(Random.Range(405, 410), 0.12f, Random.Range(570, 580));
+            Vector3 spawnPosition = new Vector3(randomX, 0.12f, randomZ);
+            Vector3 spawnPosition2 = new Vector3(randomX2, 0.12f, randomZ2);
 
             // Instantiate the zombie at the chosen position
             Instantiate(zombieClone, spawnPosition, Quaternion.identity);
+            Instantiate(zombieClone, spawnPosition2, Quaternion.identity);
 
             // Increment the count of spawned zombies
             currentZombies++;
@@ -79,65 +94,12 @@ public class CloneZombie : MonoBehaviour
         Debug.Log("Wave " + waveCount + " spawned " + zombiesToSpawn + " zombies.");
 
         //increase zombie for next wave: 50% more zombies each wave. Cap at 50max
-        maxZombiesPerWave = Mathf.Min(Mathf.CeilToInt(maxZombiesPerWave * 1.25f), 50);
+        maxZombiesPerWave = Mathf.Min(Mathf.CeilToInt(maxZombiesPerWave * 1.25f), 70);
+    }
+
+    void SceneChangeFunction()
+    {
+        // Change to sucess scene
+        UnityEngine.SceneManagement.SceneManager.LoadScene("SceneSucess");
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//public class CloneZombie : MonoBehaviour
-
-
-//{
-//    public GameObject zombieClone;
-//    public float delayTime = 120f;
-
-//    private int maxZombies = 10;
-//    private int currentZombies = 0;
-
-//    private bool peutSpawn = true;
-
-//    public TextMeshProUGUI timerZombie;
-
-//    // Start is called before the first frame update
-//    void Start()
-//    {
-
-//    }
-//    void Update()
-//    {
-//        if (!peutSpawn) return;
-
-//        delayTime -= Time.deltaTime;
-//        if (delayTime <= 0 && currentZombies < maxZombies)
-//        {
-//            Vector3 endroit1 = new Vector3(Random.Range(405, 410), 0.12f, Random.Range(570, 580));
-//            Instantiate(zombieClone, endroit1, Quaternion.identity);
-
-//            currentZombies++;
-//            delayTime = 120f;
-//        }
-//        if (currentZombies == maxZombies)
-//        {
-//            peutSpawn = false;
-//        }
-
-//        //Timer sur l'ordi
-//        timerZombie.text = delayTime.ToString("0") + "Secondes";
-//    }
-
-
-//}
