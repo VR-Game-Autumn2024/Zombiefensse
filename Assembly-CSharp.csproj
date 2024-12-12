@@ -62,7 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Joueur_Scripts\SystemPointage.cs" />
-    <Compile Include="Assets\Scripts\Zombie_scripts\CloneZombie2.cs" />
     <Compile Include="Assets\Scripts\Joueur_Scripts\viePersonnage.cs" />
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\Scripts\Joueur_Scripts\MarcheJoueur.cs" />
