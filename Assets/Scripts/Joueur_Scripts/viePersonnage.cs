@@ -67,7 +67,7 @@ public class viePersonnage : MonoBehaviour
         else if (vieActuelle <= 0)
         {
             //GAME OVER with scene
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("Defeat");
 
         }
 
