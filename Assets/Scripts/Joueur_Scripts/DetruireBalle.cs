@@ -16,6 +16,9 @@ public class DetruireBalle : MonoBehaviour
 
         if (other.gameObject.CompareTag("zombie"))
         {
+
+            SystemPointage.instance.AjouterPoint();
+
             Destroy(other.gameObject);
         }
     }
