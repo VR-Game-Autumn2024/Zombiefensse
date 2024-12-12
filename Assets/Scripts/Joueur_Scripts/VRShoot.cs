@@ -14,6 +14,8 @@ public class VRShoot : MonoBehaviour
     public Transform shootingPoint;
     //Force/vitesse de la balle
     public float forceBalle = 20f;
+    //Temps restant avant de tirer une autre balle
+    public float countdownTire;
 
     public AudioSource source;
 
@@ -29,9 +31,14 @@ public class VRShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        countdownTire -= Time.deltaTime;
+
         if (OVRInput.GetDown(boutonTire))
         {
-            Shoot();
+            if (countdownTire <= 0.0f)
+            {
+                Shoot();
+            }
         }
     }
 
@@ -40,5 +47,6 @@ public class VRShoot : MonoBehaviour
         source.PlayOneShot(sonTire);
         //Lorsqu'on tire la balle apparait et se dirige vers l'avant
         Instantiate(ballePrefab, shootingPoint.position, shootingPoint.rotation * Quaternion.Euler(90f, 0f, 0f)).GetComponent<Rigidbody>().AddForce(shootingPoint.forward * forceBalle);
+        countdownTire = 2f;
     }
 }
