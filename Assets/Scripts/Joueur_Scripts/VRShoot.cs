@@ -38,6 +38,7 @@ public class VRShoot : MonoBehaviour
             if (countdownTire <= 0.0f)
             {
                 Shoot();
+                Vibrate();
             }
         }
     }
@@ -48,5 +49,32 @@ public class VRShoot : MonoBehaviour
         //Lorsqu'on tire la balle apparait et se dirige vers l'avant
         Instantiate(ballePrefab, shootingPoint.position, shootingPoint.rotation * Quaternion.Euler(90f, 0f, 0f)).GetComponent<Rigidbody>().AddForce(shootingPoint.forward * forceBalle);
         countdownTire = 2f;
+
+        
     }
-}
+
+    public void Vibrate()
+    {
+        //Vibration de la manette 
+        Invoke("CommencerVibrer", 0.05f);
+
+        //Arret de la vibration
+        Invoke("ArreterVibrer", 0.35f);
+
+    }
+
+    public void CommencerVibrer()
+    {
+        //Vibrer avec une intensité de 1
+        OVRInput.SetControllerVibration(1f, 1f, OVRInput.Controller.RTouch);
+        //debug test 
+        Debug.Log("Vibration");
+    }
+    public void ArreterVibrer()
+    {
+        //Réduction d'intensité après 0.7s
+        OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.RTouch);
+        Debug.Log("Arret Vibration");
+    }
+    }
+
