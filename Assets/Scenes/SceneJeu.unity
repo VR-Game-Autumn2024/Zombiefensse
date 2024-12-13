@@ -11199,6 +11199,7 @@ MonoBehaviour:
   ballePrefab: {fileID: 2414665486738993073, guid: f7daa3737fae61040847fe0d41416734, type: 3}
   shootingPoint: {fileID: 1563919900}
   forceBalle: 1500
+  countdownTire: 0
   source: {fileID: 627232844}
   sonTire: {fileID: 8300000, guid: 7d92337cf000c604db820891342ff1ba, type: 3}
 --- !u!82 &627232844
@@ -15328,13 +15329,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 951201404}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95ffe102e7a7bce418fffd8d792eaca7, type: 3}
+  m_Script: {fileID: 11500000, guid: f1d0064ac57f04e47b6eaad3732c0527, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boutonTire: 268435456
   ballePrefab: {fileID: 2414665486738993073, guid: f7daa3737fae61040847fe0d41416734, type: 3}
   shootingPoint: {fileID: 1186357745}
   forceBalle: 1500
+  countdownTire: 0
   source: {fileID: 951201406}
   sonTire: {fileID: 8300000, guid: 7d92337cf000c604db820891342ff1ba, type: 3}
 --- !u!1001 &951502704
