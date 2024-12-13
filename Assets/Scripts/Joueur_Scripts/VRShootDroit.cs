@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VRShoot : MonoBehaviour
+public class VRShootDroit : MonoBehaviour
 {
     //Appuyer sur le trigger de la manette
     public OVRInput.RawButton boutonTire;
