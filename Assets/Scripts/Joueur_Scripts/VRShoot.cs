@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VRShootDroit : MonoBehaviour
+public class VRShoot : MonoBehaviour
 {
     //Appuyer sur le trigger de la manette
     public OVRInput.RawButton boutonTire;
@@ -55,15 +55,19 @@ public class VRShootDroit : MonoBehaviour
 
     public void Vibrate()
     {
-        //Vibration de la manette 
+        /*//Vibration de la manette 
         Invoke("CommencerVibrer", 0.05f);
 
         //Arret de la vibration
-        Invoke("ArreterVibrer", 0.35f);
+        Invoke("ArreterVibrer", 0.35f);*/
+
+        OVRInput.Controller controller = OVRInput.GetActiveController();
+
+        StartCoroutine(VibrationRoutine(controller));
 
     }
 
-    public void CommencerVibrer()
+    /*public void CommencerVibrer()
     {
         //Vibrer avec une intensité de 1
         OVRInput.SetControllerVibration(1f, 1f, OVRInput.Controller.RTouch);
@@ -75,6 +79,16 @@ public class VRShootDroit : MonoBehaviour
         //Réduction d'intensité après 0.7s
         OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.RTouch);
         Debug.Log("Arret Vibration");
+    }*/
+
+    private IEnumerator VibrationRoutine(OVRInput.Controller controller)
+    {
+        OVRInput.SetControllerVibration(1f, 1f, controller);
+
+        yield return new WaitForSeconds(0.35f);
+
+        OVRInput.SetControllerVibration(0f, 0f, controller);
     }
+
     }
 
