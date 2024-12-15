@@ -14,23 +14,27 @@ public class Zombie_AI : MonoBehaviour
     bool walkPointSet;
     public float walkPointRange;
 
+    //attaque du zombie
     public float timeBetweenAttacks;
     bool alreadyAttacked;
 
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
-    //Variables de vie et de dégats du Zombie
+    //Variables de dégats du Zombie
     public float Damage;
-    public float Health;
 
     //Appel la vie du personnage
     GameObject viePersonnage;
     public viePersonnage viePersoScript;
 
+    //Sons
+    public AudioClip zombieAttackSon;
+    public AudioSource audioSource;
+
     //Animation
     public Animator animator;
-    // Start is called before the first frame update
+
     private void Start()
     {
         viePersoScript = viePersonnage.GetComponent<viePersonnage>();
@@ -44,7 +48,6 @@ public class Zombie_AI : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         agent.SetDestination(player.position);
@@ -56,7 +59,7 @@ public class Zombie_AI : MonoBehaviour
         if (playerInAttackRange && playerInSightRange) AttackPlayer();
         
     }
-
+    //Déplacement du zombie si il ne voit pas le joueur
     private void Patrolling()
     {
         if (walkPointSet) searchWalkPoint();
@@ -72,6 +75,8 @@ public class Zombie_AI : MonoBehaviour
             walkPointSet = false;
         }
     }
+
+    //Point de marche du zombie si il ne voit pas le joueur
     private void searchWalkPoint()
     {
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
@@ -84,10 +89,14 @@ public class Zombie_AI : MonoBehaviour
             walkPointSet = true;
         }
     }
+
+    //Lorque le zombie voit le joueur
     private void ChassePlayer()
     {
         agent.SetDestination(player.position);
     }
+
+    //Script de l'attaque du Zombie
     private void AttackPlayer()
     {
         agent.SetDestination(transform.position);
@@ -96,17 +105,21 @@ public class Zombie_AI : MonoBehaviour
         {
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
-            //Attaque du Zombie
+            //Intéraction avec la vie du joueur
             viePersoScript.vieActuelle -= Damage;
+            //joue l'animation et le son du zombie
             animator.SetBool("attaque", true);
+            audioSource.PlayOneShot(zombieAttackSon);
         }
     }
+     //Intervalle d'attaque du zombie
     private void ResetAttack()
     {
         alreadyAttacked = false;
         animator.SetBool("attaque", false);
     }
 
+    //Pour voir la distance de l'attaque du zombie et la distance de vue du zombie
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
