@@ -21,7 +21,7 @@ public class SystemPointage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        highScore = PlayerPrefs.GetInt("ScoreFin", 0);
+        highScore = PlayerPrefs.GetInt("highScore", 0);
         //Le score se réinitialise à 0 lorsqu'on commence la partie
         textScore.text = "Score: " + score.ToString();
 
@@ -33,8 +33,8 @@ public class SystemPointage : MonoBehaviour
         score += 1;
         textScore.text = "Score: " + score.ToString();
         if(highScore < score) {
-            PlayerPrefs.SetInt("ScoreFin", score);
+            PlayerPrefs.SetInt("highScore", score);
         }
-        
+        PlayerPrefs.Save();
     }
 }
