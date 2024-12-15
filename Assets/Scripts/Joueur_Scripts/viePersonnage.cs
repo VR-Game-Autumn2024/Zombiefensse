@@ -68,7 +68,7 @@ public class viePersonnage : MonoBehaviour
         {
             //GAME OVER with scene
             SceneManager.LoadScene("Defeat");
-            PlayerPrefs.Save();
+            
         }
 
     }

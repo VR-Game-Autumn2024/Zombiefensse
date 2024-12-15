@@ -99,7 +99,7 @@ public class CloneZombie : MonoBehaviour
 
     void SceneChangeFunction()
     {
-        // Change to sucess scene
-        UnityEngine.SceneManagement.SceneManager.LoadScene("SceneSucess");
+        // Change to success scene
+        UnityEngine.SceneManagement.SceneManager.LoadScene(3);
     }
 }
