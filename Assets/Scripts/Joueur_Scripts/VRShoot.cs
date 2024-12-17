@@ -22,6 +22,10 @@ public class VRShoot : MonoBehaviour
     //Son lors d'un tire
     public AudioClip sonTire;
 
+    public GameObject muzzleFlash;
+    public Transform muzzleFlashPosition;
+    public GameObject gunLight;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,9 +52,13 @@ public class VRShoot : MonoBehaviour
         source.PlayOneShot(sonTire);
         //Lorsqu'on tire la balle apparait et se dirige vers l'avant
         Instantiate(ballePrefab, shootingPoint.position, shootingPoint.rotation * Quaternion.Euler(90f, 0f, 0f)).GetComponent<Rigidbody>().AddForce(shootingPoint.forward * forceBalle);
-        countdownTire = 1.5f;
+        countdownTire = 0.5f;
 
-        
+        GameObject Flash = Instantiate(muzzleFlash, muzzleFlashPosition);
+        Destroy(Flash, 0.1f);
+
+        GameObject light = Instantiate(gunLight, muzzleFlashPosition);
+        Destroy(light, 0.1f);
     }
 
     public void Vibrate()

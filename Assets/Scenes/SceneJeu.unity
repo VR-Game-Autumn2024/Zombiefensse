@@ -5936,6 +5936,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5783979506642164443, guid: 43161db6823d19b48afc4db46c8b53a8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1563919900}
+    - targetCorrespondingSourceObject: {fileID: 5783979506642164443, guid: 43161db6823d19b48afc4db46c8b53a8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1683695648}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6561465501170253921, guid: 43161db6823d19b48afc4db46c8b53a8, type: 3}
       insertIndex: -1
@@ -8114,12 +8117,12 @@ MonoBehaviour:
     m_Bits: 256
   walkpoint: {x: 0, y: 0, z: 0}
   walkPointRange: 5
-  timeBetweenAttacks: 2
+  timeBetweenAttacks: 3
   sightRange: 50
   attackRange: 1.5
   playerInSightRange: 0
   playerInAttackRange: 0
-  Damage: 10
+  Damage: 5
   viePersoScript: {fileID: 2012942595}
   zombieAttackSon: {fileID: 8300000, guid: 650c1785ec7ebed40aa7ed73fba78b7f, type: 3}
   audioSource: {fileID: 481013388}
@@ -11212,6 +11215,9 @@ MonoBehaviour:
   countdownTire: 0
   source: {fileID: 627232844}
   sonTire: {fileID: 8300000, guid: 7d92337cf000c604db820891342ff1ba, type: 3}
+  muzzleFlash: {fileID: 4946714572209935324, guid: b5ef9f8f2c271c04db215c3d782963a3, type: 3}
+  muzzleFlashPosition: {fileID: 1683695648}
+  gunLight: {fileID: 3449216700569843948, guid: c66650255b96d2c4298b16b6f45fdc53, type: 3}
 --- !u!82 &627232844
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15121,6 +15127,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2145149150}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &913715924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 913715925}
+  m_Layer: 8
+  m_Name: MuzzleFlash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &913715925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913715924}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.428, y: 0.023, z: 0.058}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 951201405}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &916262338 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
@@ -15585,6 +15622,9 @@ MonoBehaviour:
   countdownTire: 0
   source: {fileID: 951201406}
   sonTire: {fileID: 8300000, guid: 7d92337cf000c604db820891342ff1ba, type: 3}
+  muzzleFlash: {fileID: 4946714572209935324, guid: b5ef9f8f2c271c04db215c3d782963a3, type: 3}
+  muzzleFlashPosition: {fileID: 913715925}
+  gunLight: {fileID: 3449216700569843948, guid: c66650255b96d2c4298b16b6f45fdc53, type: 3}
 --- !u!1001 &951502704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18218,6 +18258,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4720288322871082551, guid: 62e70069d36571e41b6fa07f1eeb764b, type: 3}
   m_PrefabInstance: {fileID: 395705510}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1124793885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1124793886}
+  m_Layer: 0
+  m_Name: ef_1_00000
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1124793886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124793885}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1126563788
 GameObject:
   m_ObjectHideFlags: 0
@@ -28949,6 +29020,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e01f2e62cf41a3449be2dade3b2c2d79, type: 3}
+--- !u!1 &1683695647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1683695648}
+  m_Layer: 8
+  m_Name: MuzzleFlash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1683695648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683695647}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.42800903, y: 0.023000062, z: 0.0579834}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 627232842}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1686644570 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3a5032c8bc2567545bc749fd50c0a563, type: 3}
@@ -29680,6 +29782,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5783979506642164443, guid: 43161db6823d19b48afc4db46c8b53a8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1186357745}
+    - targetCorrespondingSourceObject: {fileID: 5783979506642164443, guid: 43161db6823d19b48afc4db46c8b53a8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 913715925}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6561465501170253921, guid: 43161db6823d19b48afc4db46c8b53a8, type: 3}
       insertIndex: -1
@@ -38910,3 +39015,4 @@ SceneRoots:
   - {fileID: 810122920}
   - {fileID: 820705866}
   - {fileID: 1725160297}
+  - {fileID: 1124793886}
